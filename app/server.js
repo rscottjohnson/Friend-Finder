@@ -19,8 +19,8 @@ app.use(bodyParser.json());
 // ROUTER
 // =============================================================
 // Route files to respond to user requests
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routing/apiRoutes")(app);
+require("./routing/htmlRoutes")(app);
 
 // LISTENER
 // =============================================================
