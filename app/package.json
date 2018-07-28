@@ -1,7 +1,11 @@
 {
-  "name": "app",
+  "name": "friend finder app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A compatibility-based 'Friend Finder' application",
+  "engines": {
+    "node": "6.11.5",
+    "npm": "6.1.0"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
