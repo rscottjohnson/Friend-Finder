@@ -14,18 +14,23 @@
 
   <div class="container">
 
+    <h1>Survey Questions</h1>
+    <hr class="my-4">
+    <h2>About You</h2>
+
     <hr class="my-4">
 
+    <!-- Input for Name and Photo Link -->
     <div class="row">
       <div class="col-xs-12 col-md-8">
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1">Name (Required)</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="inputName">Name (Required)</label>
+            <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter name">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Link to Photo Image (Required)</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="inputPhoto">Link to Photo Image (Required)</label>
+            <input type="text" class="form-control" id="inputPhoto" placeholder="Photo link">
           </div>
         </form>
       </div>
@@ -33,242 +38,276 @@
 
     <hr class="my-4">
 
+    <!-- Row 1 -->
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">When making a decision, you rely more on feeling and less on analysis.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">When with a group of people, you enjoy being the centre of attention.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect02">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Row 2 -->
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You feel that the world is full of compassion.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect03">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect03">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 4</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You feel involved when watching a movie.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect04">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect04">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Row 3 -->
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 5</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You like your job to be fast paced and highly engaging.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect05">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect05">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You prefer to act immediately instead of considering options.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect06">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect06">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Row 4 -->
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 7</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You usually plan your activities in advance.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect07">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect07">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 8</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You tend to experiment rather than follow tradition.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect08">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect08">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Row 5 -->
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 9</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You easily express your feelings and emotions.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect09">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect09">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Question 10</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <p class="card-text">You prefer reading a book over going to a party.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect10">Answer</label>
               </div>
+              <select class="custom-select" id="inputGroupSelect10">
+                <option selected>Choose...</option>
+                <option value="5">5 (strongly agree)</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 (strongly disagree)</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+    <hr class="my-4">
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+
+    <hr class="my-4">
 
   </div>
-
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <p>
-        <a href="/api/tables">API Table Link</a> |
-        <a href="/api/waitlist">API Wait List</a> |
+        <a href="/api/friends">API Friends List</a> |
         <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
       </p>
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <!-- Compatible friend modal -->
+  <div id="comp-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Most Compatible Friend</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3 id="comp-name"></h3>
+          <img id="comp-img" src="" alt="" class="img-thumbnail">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -276,3 +315,49 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+  // When submit is clicked...
+  $("#submit").on("click", function (event) {
+    event.preventDefault();
+    
+    // Create a new object from the survey data
+    var surveyData = {
+      name: $("#inputName").val(),
+      photo: $("#inputPhoto").val(),
+      scores: [
+        $("#inputGroupSelect01").val(),
+        $("#inputGroupSelect02").val(),
+        $("#inputGroupSelect03").val(),
+        $("#inputGroupSelect04").val(),
+        $("#inputGroupSelect05").val(),
+        $("#inputGroupSelect06").val(),
+        $("#inputGroupSelect07").val(),
+        $("#inputGroupSelect08").val(),
+        $("#inputGroupSelect09").val(),
+        $("#inputGroupSelect10").val()
+      ]
+    }
+
+    // POST the data to the API and update modal info
+    $.post("/api/friends", surveyData, function (data) {
+      $("#comp-name").text(data.name);
+      $("#comp-img").attr("src", data.photo);
+      $("#comp-modal").modal("toggle");
+    });
+
+    // Reset the form values
+    $("#inputName").val("");
+    $("#inputPhoto").val("");
+    $("#inputGroupSelect01").val("");
+    $("#inputGroupSelect02").val("");
+    $("#inputGroupSelect03").val("");
+    $("#inputGroupSelect04").val("");
+    $("#inputGroupSelect05").val("");
+    $("#inputGroupSelect06").val("");
+    $("#inputGroupSelect07").val("");
+    $("#inputGroupSelect08").val("");
+    $("#inputGroupSelect09").val("");
+    $("#inputGroupSelect10").val("");
+  });
+</script>
